@@ -1,8 +1,18 @@
+.logo{
+    float: left;
+}
+.Slogan{
+    float: left;
+}
+
 .slogan{
-    float:;
     color: #111d5e;
-    font-size: 50px;
+    font-size: 60px;
     font-family: cursive;
+}
+
+.menü{
+    float: left;
 }
 
 .a{
@@ -10,7 +20,7 @@
 }
 
 .a1{
-
+    float: left;
 }
 
 .btn{
