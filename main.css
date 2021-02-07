@@ -1,15 +1,15 @@
 .nav{
     overflow: hidden;
 }
-.logo{
+.logo img {
     float: left;
-    width: 160px
-    margin-left: 10px;
+    width: 160px;
+    height: 160px;
 }
 
 .slum{
     float: left;
-    margin-left: 10px;
+    margin-left: 75px;
 }
 
 .slogan{
@@ -24,6 +24,8 @@
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: space-between;
+    padding: 0px;
+    color: #111d5e
 }
 
 .a1{
@@ -39,6 +41,7 @@
     color: #111d5e;
     padding: 10px 30px;
     border-radius: 10px;
+    border-color: #111d5e;
 }
 
 .btn + .btn{
@@ -50,10 +53,12 @@
     float: left;
     margin-left: 16%;
     font-size: 24px;
+    background-color: #ffcda3;
 }
 
 .btn--suche{
     font-family: Arial, Helvetica, sans-serif;
     float: left;
     font-size: 24px;
+    background-color: #ffcda3;
 }
