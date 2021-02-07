@@ -3,16 +3,21 @@
 }
 .logo{
     float: left;
+    width: 160px
+    margin-left: 10px;
 }
 
 .slum{
     float: left;
+    margin-left: 10px;
 }
 
 .slogan{
     color: #111d5e;
     font-size: 60px;
     font-family: cursive;
+    margin: 0px;
+
 }
 
 .a{
@@ -24,6 +29,8 @@
 .a1{
     float: left;
     margin: auto;
+    display: block;
+    color: #111d5e;
 }
 
 .btn{
@@ -31,7 +38,7 @@
     text-decoration: none;
     color: #111d5e;
     padding: 10px 30px;
-    border-radius: 50px;
+    border-radius: 10px;
 }
 
 .btn + .btn{
@@ -39,14 +46,14 @@
 }
 
 .btn--biete{
-    background-color: #ffcda3;
     font-family: Arial, Helvetica, sans-serif;
     float: left;
     margin-left: 16%;
+    font-size: 24px;
 }
 
 .btn--suche{
-    background-color: #ffcda3;
     font-family: Arial, Helvetica, sans-serif;
     float: left;
+    font-size: 24px;
 }
