@@ -1,33 +1,36 @@
 <html>
-    <div>
-        <img src="">
-        <h1>Find your Fashion</h1>
-    </div>
-    <form action="">
-        <label for="">Was willst du loswerden?</label>
-        <input type="text"><br>
-        <label for="size">Größe</label>
-        <select name="size" id="size">
-            <option value="XXL">XXL</option>
-            <option value="XL">XL</option>
-            <option value="L">L</option>
-            <option value="M">M</option>
-            <option value="S">S</option>
-            <option value="XS">XS</option>
-        </select><br>
-        <label for="">Typ</label>
-        <label for="male">M</label>
-        <input type="radio" name="style" id="male">
-        <label for="female">F</label>
-        <input type="radio" name="style" id="Female">
-        <label for="unisex">Uni</label>
-        <input type="radio" name="style" id="unisex"><br>
-        <label for="">Wie viele Monate benutzt?</label>
-        <input type="text"><br>
-        <label for="">erwünschter Preis in €</label>
-        <input type="text"><br>
-    </form>
-<button>
-    <a href="articles.html">Anbieten</a>
-</button>
+    <head>
+        <script src="skript.js"></script>
+    </head>
+    <body>
+        <div>
+            <img src="">
+            <h1>Find your Fashion</h1>
+        </div>
+        <form action="" onsubmit="a(event)" id="b">
+                <label for="">Was willst du loswerden?</label>
+                <input type="text" id="artikel"><br>
+                <label for="size">Größe</label>
+                <select name="size" id="size">
+                    <option value="XXL">XXL</option>
+                    <option value="XL">XL</option>
+                    <option value="L">L</option>
+                    <option value="M">M</option>
+                    <option value="S">S</option>
+                    <option value="XS">XS</option>
+                </select><br>
+                <label for="">Typ</label>
+                <label for="male">M</label>
+                <input type="radio" name="style" id="male">
+                <label for="female">F</label>
+                <input type="radio" name="style" id="female">
+                <label for="unisex">Uni</label>
+                <input type="radio" name="style" id="unisex"><br>
+                <label for="">Wie viele Monate benutzt?</label>
+                <input type="text" name="style" id="monat"><br>
+                <label for="">erwünschter Preis in €</label>
+                <input type="text" name="style" id="preis"><br>
+                <button type="submit" form="b">Anbieten</button>
+        </form>
+    </body>    
 </html>
